@@ -34,4 +34,4 @@ class Note(models.Model):
     )
 
     def __str__(self):
-        return f"{self.title[:10]}"
+        return f"{self.title}"
